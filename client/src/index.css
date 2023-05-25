@@ -1,0 +1,56 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+body
+{
+  color: white;
+  background-color: black
+}
+
+.table-trans
+{
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.table-trans td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+.table-trans tr:nth-child(even) {
+  /* background-color: #dddddd; */
+}
+
+
+.react-confirm-alert-overlay
+{
+  background-color:rgba(255, 255, 255 , 0.6)!important;
+}
+
+.react-confirm-alert-overlay .react-confirm-alert-body
+{
+  background-color: black!important;
+  color:#fff;
+  text-align: center;
+}
+
+.react-confirm-alert-overlay .react-confirm-alert-body h1 
+{
+  font-size: 2rem;
+}
+
+.react-confirm-alert-overlay .react-confirm-alert-body .react-confirm-alert-button-group
+{
+  display: flex!important;
+  justify-content: center!important;
+  gap:2rem;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
